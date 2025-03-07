@@ -10,7 +10,17 @@
     <p>Paragraph 1</p>
     <p>Paragraph 2</p>
     <p>Paragraph 3</p>
-
+    <script>
+        var plsWork = document.getElementsByTagName("p");
+        plsWork.addEventListener("onclick", clicked); //WHY DOES IT KEEP TRING TO READ IT AS IF IT IS A FUNCTION
+    
+    
+        function clicked(element) {
+            this.style.color = "red";
+        }
+    </script>
     
 </body>
+
+
 </html>

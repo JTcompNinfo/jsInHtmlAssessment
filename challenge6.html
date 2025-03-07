@@ -8,6 +8,16 @@
     <!-- Create a button that, when clicked, displays an alert 
      saying "Button clicked!" Use a function to handle the click event. -->
 
-    
+    <script>
+    var button = document.createElement("button");
+    button.innerHTML = "Click Me!"
+    button.addEventListener("onclick", clicked);
+    document.body.appendChild(button)
+
+
+    function clicked() {
+        alert("Button clicked!");
+    }
+    </script>
 </body>
 </html>

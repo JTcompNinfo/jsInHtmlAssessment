@@ -7,6 +7,17 @@
 
     <!-- Create a <div> element with a blue background and white 
         text using both setAttribute and dot notation. -->
-        
+        <script>
+            var div = document.createElement("div");
+            var div2 = document.createElement("div");
+            div.style.backgroundColor = "blue";
+            div.style.color = "white"
+            div2.setAttribute("style", "color: white");
+            div2.setAttribute("style", "background-color: blue");
+            div.innerHTML ="Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium illum optio, a delectus esse sit iste cupiditate dignissimos animi tenetur voluptates nulla deleniti ab odio corrupti perferendis est totam eligendi."
+            div2.innerHTML ="Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium illum optio, a delectus esse sit iste cupiditate dignissimos animi tenetur voluptates nulla deleniti ab odio corrupti perferendis est totam eligendi."
+            document.body.appendChild(div);
+            document.body.appendChild(div2)
+        </script>
 </body>
 </html>

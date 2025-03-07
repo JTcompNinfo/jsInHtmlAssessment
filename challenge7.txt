@@ -2,3 +2,6 @@ Explain the difference between calling a function from within
 a script block and calling a function from a button's onclick 
 attribute. Write a short answer.
 
+
+When you call a funtion within a script block it runs without any user ction needing to be done.
+When you call a funtion from a utton's onclick attribute it needs user input to be activated.
